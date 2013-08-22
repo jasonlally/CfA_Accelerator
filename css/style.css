@@ -36,8 +36,8 @@ a:hover {
 h1{
 	font-size:37px;
 	color:#3b3b3b;	
-	font-family:'Lato', Helvetica, Gotham;	
-	font-weight: 700;
+	font-family:'Oswald', Helvetica, Gotham, sans-serif;
+	font-weight: normal;
 	text-align: center;
 	padding-bottom: 10px;
 }
@@ -253,8 +253,8 @@ ul{
 	text-decoration:none;
 	color:#3b3b3b;
 	display:block;
-	font-family:'Lato', Helvetica, Gotham;	
-	font-weight: 700;
+	font-family:'Open Sans', Helvetica, Gotham, sans-serif;
+	font-weight: 300;
 	font-size: 21px;	
 }
 
@@ -1384,7 +1384,6 @@ line-height: 66px;
 	cursor: pointer;
 }
 #application {
-	height: 2500px;
 	overflow: hidden;
 }
 

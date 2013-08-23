@@ -411,10 +411,44 @@ ul{
 	float:left;
 	width:100%;
 	height:60px;
-	background:url(../images/finishing_line.jpg) center no-repeat;
+	background:url(../images/finishing_line.png) center no-repeat;
 	margin:0px 0px 15px;	
 }
 
+blockquote {
+    font-size: 25px;
+    float: left;
+    margin: 40px 0 20px 0px;
+    color: #5d5d5c;
+}
+
+.source {
+    font-size: 75%;
+    float: right;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.bqstart {
+    font-family: Arial, sans-serif;
+    float: left;
+    height: 45px;
+    margin-top: -20px;
+    padding-top: 45px;
+    margin-bottom: -50px;
+    font-size: 700%;
+    color: #267FFF;
+}
+
+.bqend {
+    font-family: Arial, sans-serif;
+    float: right;
+    height: 25px;
+    margin-top: 0px;
+    padding-top: 45px;
+    font-size: 700%;
+    color: #267FFF;
+}
 .program_cont ul{
 	margin-left:20px;
 	padding:0px;
@@ -530,8 +564,7 @@ img.advisoricons{
 #footer_cont{
 	float:left;
 	width:100%;
-	height:50px;
-	background:#c91f3d;
+	background:#2680FF;
 	text-align: center;
 }
 

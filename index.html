@@ -8,7 +8,6 @@
 
     <!-- Le styles todo: replace with minified CDN versions -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -16,16 +15,17 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:400,300' rel='stylesheet'
-          type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet'
-          type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Montserrat|Fjalla+One' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/ico" href="images/favicon.ico"/>
 
 </head>
 
-<body data-spy="scroll" data-target=".subnav" data-offset="100">
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+
+<div class="container" style="height: 70px">
+
+</div>
+
 <div id="main_nav_cont" class="navbar">
     <div class="container">
         <div class="navbar-header">
@@ -34,97 +34,102 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">San Francisco Entrepreneurship in Residence</a>
+            <a class="navbar-brand" href="#"></a>
         </div>
         <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#partners">Partners</a></li>
             </ul>
-        </div><!--/.nav-collapse -->
+        </div>
+        <!--/.nav-collapse -->
     </div>
 </div>
 
 <!-- Masthead
 ================================================== -->
-<div id="banner_cont">
-    <div id="banner_bg">
-        <div id="banner_txt"><span class="top_cufon">SAN FRANCISCO ENTREPRENEURSHIP IN RESIDENCE</span> </span><br/>
-            <span class="banner_des">Bring real solutions to real public sector challenges.</span><br/>
+<div class="jumbotron" id="top">
+    <div class="container">
+        <h1>San Francisco Entrepreneurship in Residence</h1>
 
-            <div class="Apply">
-                <button name="" class="button">Apply Now</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="information">
-<div id="main_nav_cont" class="subnav">
-    <div id="nav_cont">
-        <ul class="nav">
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#program">Program</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#partners">Partners</a></li>
-        </ul>
-    </div>
-</div>
-<div id="wrapper">
-<div id="main_container" class="info">
-<div class="main_cont" id="overview">
-    <h1>OVERVIEW</h1>
-    <blockquote><span class="bqstart">&#8220;</span>We’ve got to have the brightest minds to help solve our biggest challenges.<span class="bqend">&#8221;</span><span class="source">&#8212;President Obama <a href="http://www.whitehouse.gov/the-press-office/2013/07/08/remarks-president-presenting-new-management-agenda
-" target="_blank">presenting new management agenda</a></span></blockquote>
+        <h2>Bring real solutions to real public sector challenges.</h2>
 
-    <div class="top_art_cont">
-        <p>Historically, technology has been the biggest driver of productivity and innovation gains in many sectors&#8212;with government being a notable exception. The barriers to adoption of government technology are many but
-            the most significant is a shortage of sector-specific solutions. This has left government with two primary
-            options:</p>
-        <ol style="padding-left:20px">
-            <li>use technology intended for Fortune 500 companies, or</li>
-            <li>develop custom solutions that don’t scale well or easily.</li>
-        </ol>
         <p>
-        However, with the emergence of cloud services, growing govtech investment and civic accelerators, the startup
-        ecosystem is now seeing opportunity in this $140+ billion market. (See <a href="http://cio.gov/wp-content/uploads/2012/09/FY2013-IT1.pdf" target="_blank">Federal IT Spending</a> and <a href="http://iq.govwin.com/corp/library/detail.cfm?ItemID=17168" target="_blank">State & Local IT Spending</a>)</p>
 
-        <p>The nascent govtech ecosystem is missing one critical element customer insight of pain points
-            and an understanding of government mechanics. Through the San Francisco Entrepreneurship in Residence program (SF EIR), the <a href="http://innovatesf.com" target="_blank">Mayor's Office of Civic Innovation</a> seeks to bridge this gap by connecting public-sector staff directly with entrepreneurs to seed problem discovery and product development. With
-            thousands of pain points, government has the potential to support a large ecosystem of best-of-breed solutions
-            helping catalyze public sector innovation and productivity.</p>
+        <div class="Apply" style="text-align: center; margin: 0 auto">
+            <button name="" class="button">Apply Now</button>
+        </div>
+        </p>
     </div>
-    <div id="finish_line_cont"></div>
 </div>
-<div class="main_cont" id="program">
-    <h1>PROGRAM</h1>
+<div class="container" id="information">
+<!-- Example row of columns -->
+<div class="row" id="overview">
+    <h1>Overview</h1>
+    <div class="col-md-6 col-md-offset-3">
+        <blockquote>We’ve got to have the brightest minds to help solve our biggest
+            challenges.<span class="source"><a href="http://www.whitehouse.gov/the-press-office/2013/07/08/remarks-president-presenting-new-management-agenda
+" target="_blank">&#8212;President Obama </a></span><p></p></blockquote>
+    <p>San Francisco&rsquo;s EIR program, offered by the <a href="http://innovatesf.com/">Mayor&#39;s
+        Office of Civic Innovation</a>, will select talented entrepreneurial teams and help them develop
+        technology-enabled products and services that can capitalize on the $140+ billion (See <a
+                href="http://cio.gov/wp-content/uploads/2012/09/FY2013-IT1.pdf">Federal IT
+            Spending</a> and <a href="http://iq.govwin.com/corp/library/detail.cfm?ItemID=17168">State
+            &amp; Local IT Spending</a>) public sector market by providing them with direct and ongoing access to
+        government needs and opportunities, staff, their expertise and their pain points. The entrepreneurial products
+        or services should drive significant impact such as increased revenue, enhanced productivity or meaningful cost
+        savings.
+    </p>
 
-    <div class="top_art_cont">
-        <p>SF EIR is the only government EIR program in the country. We offer each accepted team office
-            space and senior mentors at City Hall for four months, and most importantly, access to a gold-mine of
-            government
-            problems and insights through the City and County of SF.</p>
+    <p>Entrepreneurs will get to work side-by-side city staff to work on opportunities that are actual pain points and
+        needs of the government. In addition, products and services that successfully solve issues faced by San
+        Francisco can easily expand to addressing similar needs of other cities and states across the nation in addition
+        to the private sector.</span>
+    </p>
+
+    <p>San Francisco&rsquo;s EIR program will offer each selected team mentorship from senior public leaders across the
+        Mayor&rsquo;s office and San Francisco departments and from entrepreneurial and private sector leaders in
+        addition to product development and ramp up support, and access to a gold-mine of government problems and
+        insights through the City and County of San Francisco.
+    </p>
+
+    <p>The program will bring together meaningful opportunities and talented entrepreneurs to drive innovative solutions
+        in key areas such as data analysis, healthcare, transportation, energy, infrastructure, mobile and cloud
+        services. The program expects to select 3 to 5 teams. The program will last 16 weeks from mid-October, 2013
+        through mid-February, 2014.
+    </p>
+        <blockquote>Innovation is not just about technology – it is about addressing our City’s challenges creatively and effectively, with the inclusive leadership of our public and private sectors.
+            <span class="source">&#8212;Mayor Ed Lee</span><p></p></blockquote>
     </div>
-    <div class="program_cont">
-        <h3 class="ribbon">What We Offer</h3>
+    <div class="divider"></div>
+</div>
+<div class="row" id="program">
+    <h1>Program</h1>
 
+    <div class="col-md-6 col-md-offset-3">
+        <p>SF EIR is an exciting opportunity for entrepreneurs to build products for government, one of the largest purchasers of goods and services. We offer each accepted team senior public sector and private sector mentors for four months, and most importantly, access to a gold-mine of government problems and insights through the City and County of San Francisco.</p>
+        <h2>What We Offer</h2>
+    </div>
+    <div class="col-md-10 col-md-offset-1 program-summary">
         <div class="row">
-            <div class="span4">
+            <div class="col-md-4">
                 <img src="images/icon_cityhallflag.png">
 
                 <p>Direct access to and assistance from the customer&#8212;civil servants in search of
-                    solutions to real problems
+                    solutions to real challenges
                 </p>
             </div>
-            <div class="span4">
+            <div class="col-md-4">
                 <img src="images/icon_teaching.png">
 
                 <p>Workshops and trainings on important topics related to working with government like open
                     data standards, procurement, and security
                 </p>
             </div>
-            <div class="span4">
+            <div class="col-md-4">
                 <img src="images/icon_mentors.png">
 
                 <p>Mentorship from senior public sector leaders across the Bay Area and private sector
@@ -133,80 +138,83 @@
             </div>
         </div>
         <div class="row">
-            <div class="span4">
+            <div class="col-md-4">
                 <img src="images/icon_coworking.png">
-
-                <p>Access to space in City Hall if you need it
+                <p>Access to coworking and collaboration space
                 </p>
             </div>
-            <div class="span4">
+            <div class="col-md-4">
                 <img src="images/icon_bullhorn.png">
-
                 <p>A high profile stage from which to offer your product to other local government customers
                 </p>
             </div>
 
-            <div class="span4">
+            <div class="col-md-4">
                 <img src="images/icon_handshake.png">
-
                 <p>A commitment to your success</p>
             </div>
         </div>
 
     </div>
-    <div class="top_art_cont">
-        <h3 class="ribbon">What We're Looking For</h3>
+    <div class="col-md-6 col-md-offset-3">
+        <h2>What We're Looking For</h2>
 
         <ol class="para">
-            <li>Your product or service should address areas of topical relevance to the public sector (e.g. related to
-                data, healthcare, transportation, energy, infrastructure, mobile and civic engagement, etc.)
+            <li>
+                Your product or service should address areas of topical relevance to the public sector (e.g. related to data, healthcare, transportation, energy, infrastructure, mobile and civic engagement, public assets, etc.)
             </li>
-            <li>Your team should be pursuing an opportunity that has large economic potential ($100M+ market) and
-                significant impact potential (increased revenue, enhanced productivity, meaningful cost savings, etc.).
+            <li>
+                Your team should be pursuing an opportunity that has large economic potential ($100M+ market) and significant impact potential (increased revenue, enhanced productivity, meaningful cost savings, etc.).
             </li>
-            <li>Your product or service should be technology enabled and have broad applicability across SF and other
-                cities and states and across public and private sector customers.
+            <li>
+                Your product or service should be technology enabled and have broad applicability across SF and other cities and states and across public and private sector customers.
             </li>
-            <li>Preference is given for products or services in advanced stages of development and rollout or existing
-                products that could also address government needs. If you are a position to build out the product or
-                service within 16 weeks, that is fine as well.
+            <li>
+                Preference is given for products or services in advanced stages of development and rollout or existing products that could also address government needs. If you are in a position to build out the product or service within 16 weeks, that is fine as well.
             </li>
-            <li>Your product shows promise to be self-sustainable.</li>
-            <li>Your team demonstrate high likelihood of success based on prior professional and personal experiences.
+            <li>
+                Your product shows promise to be self-sustainable.
             </li>
-            <li>Preference for teams over sole individuals; if sole individual, please elaborate on how you will build
-                team and accomplish program objectives within 16 weeks.
+            <li>
+                Your team demonstrates high likelihood of success based on prior professional and personal experiences.
+            </li>
+            <li>
+                Preference for teams over sole individuals; if sole individual, please elaborate on how you will build a team and accomplish program objectives within 16 weeks.
             </li>
         </ol>
 
-        <h3 class="ribbon">What You Can Expect</h3>
+        <h2>What You Can Expect</h2>
 
-        <p>The selection process will be through an open and competitive application process. Applications will be used
+        <p>The selection process will be through an open and competitive application process. Applications will be
+            used
             to assess the qualifications, fit and likelihood of success of the applicants.</p>
 
         <p>Selection will be made by SF EIR selection group composed of public and private sector leaders with
             innovation, Fortune 500, startup and venture capital experience.</p>
+        <p>Deadline:</p>
 
         <div class="Apply" style="text-align: center; margin: 0 auto">
             <button class="button" style="float:none; margin-bottom:20px">Apply Now</button>
         </div>
     </div>
-
-    Timeline here
-
-    <div id="finish_line_cont"></div>
+    <div class="divider"></div>
 </div>
-<div class="main_cont" id="team">
-    <h1>TEAM</h1>
-
-    <div class="top_art_cont">Entrepreneurs can expect to have access to a range of experts and advisors in the private
-        and public sectors. These industry and government leaders will help your team define and achieve success in the
-        civic innovation space with San Francisco agencies and departments as your key focus group and customers over
-        the four month program. Below are just a handful of currently committed advisors. We look forward to announcing
-        the full cohort soon.
+<div class="row" id="team">
+    <h1>Team</h1>
+    <div class="col-md-6 col-md-offset-3">
+        <p>Entrepreneurs can expect to have access to a range of experts and advisors in the private
+            and public sectors. These industry and government leaders will help your team define and achieve success in
+            the
+            civic innovation space with San Francisco agencies and departments as your key focus group and customers
+            over
+            the four month program. Below are just a handful of currently committed advisors. We look forward to
+            announcing
+            the full cohort soon.
+        </p>
+        <h2>Advisors</h2>
     </div>
-    <div class="proof_cont">
-        <h3 class="ribbon">Advisors</h3>
+    <div class="col-md-12">
+
 
         <div class="advisorimages">
             <!--  <h4><img class="advisoricons" src="images/gov_icon.png"/> Government</h4> -->
@@ -237,48 +245,41 @@
                 </ul>
             </div>
         </div>
-        <div id="finish_line_cont"></div>
+        <div class="divider"></div>
     </div>
-</div>
-<div class="main_cont faq_h" id="faq">
-    <h1>FAQ</h1>
-
-    <div class="top_art_cont">
-        <p>Got questions? Here are some answers, and we'll keep adding to the list over time.
-            If your question isn't answered here, reach out via (<a
-                    href="???">email (need a point of contact email, if appropriate or we drop this)</a> or <a
-                    href="http://twitter.com/sfmoci">@sfmoci</a>), and we'll get your question answered.</p>
-
-        <h2>Why is the program unique?</h2>
-
-        <p class="answers">This is the first EIR program within government, who is by far the largest customer of
-            products and services in the nation. Entrepreneurs get to work within San Francisco City Hall and work on
-            opportunities that are actual pain points and needs of the government. In addition, products and services
-            that successfully solve issues faced by San Francisco can easily expand to addressing similar needs of other
-            cities and states across the nation in addition to the private sector.</p>
-
-        <h2>Who is the target entrepreneur?</h2>
-
-        <p class="answers">We are looking particularly for entrepreneurial teams who recognize that challenge and
-            opportunity go hand-in-hand. It is also critical that the EIRs think about solving problems at a large
-            scale. Pain points and issues faced by government need products and services that can scale well and can
-            function across multiple environments and across different types of users. And we want EIRs who think big!
-            As an analogy, we’re looking for teams who instead of building an app that tells you when the train is
-            delayed, builds products or services that helps the trains run on time.</p>
-
-        <h2>What is the Office of Civic Innovation?</h2>
-
-        <p class="answers">What do you think it is?</p>
     </div>
-    <div id="finish_line_cont"></div>
-</div>
-<div class="main_conta row" id="sponsors">
-    <div class="span8 offset2">
-        <!-- logos should be 300 x 145, then no special margins or padding need to be set -->
-        Sponsors/partners go here
+    <div class="row" id="faq">
+        <h1>FAQ</h1>
+
+        <div class="col-md-6 col-md-offset-3">
+            <p>Got questions? Here are some answers, and we'll keep adding to the list over time.
+                If your question isn't answered here, reach out via (<a
+                        href="???">email (need a point of contact email, if appropriate or we drop this)</a> or <a
+                        href="http://twitter.com/sfmoci">@sfmoci</a>), and we'll get your question answered.</p>
+
+            <h2>Why is the program unique?</h2>
+
+            <p>Entrepreneurs get to work within San Francisco City Hall to develop solutions for actual, observed pain points and needs of the government. In addition, products and services that successfully solve issues faced by San Francisco can easily expand to addressing similar needs of other cities and states across the nation in addition to the private sector.</p>
+
+            <h2>Who is the target entrepreneur?</h2>
+
+            <p>We are looking particularly for entrepreneurial teams who recognize that challenge and opportunity go hand-in-hand. It is also critical that the EIRs think about solving problems at a large scale. Pain points and issues faced by government need products and services that can scale well and can function across multiple environments and across different types of users. And we want EIRs who think big! As an analogy, we’re looking for teams who instead of building an app that tells you when the train is delayed, builds products or services that helps the trains run on time.
+            </p>
+
+            <h2>What is the Mayor's Office of Civic Innovation?</h2>
+
+            <p>The Mayor’s Office of Civic Innovation (MOCI) uses government as a platform for innovation. MOCI works closely with San Francisco residents and local creative and tech-minded communities to collectively design solutions and new approaches to long-standing challenges. MOCI has three strategic focus areas: economic development, citizen engagement, and government efficiency. To learn more, visit <a href="http://www.innovatesf.com">http://innovatesf.com</a>.
+            </p>
+        </div>
+        <div class="divider"></div>
+
     </div>
-</div>
-</div>
+    <div class="row" id="partners">
+        <div>
+            <!-- logos should be 300 x 145, then no special margins or padding need to be set -->
+            Sponsors/partners go here
+        </div>
+    </div>
 </div>
 </div>
 <div id="application">
@@ -293,21 +294,20 @@
     </div>
     <div id="wrapper">
         <div id="main_container" class="app">
-            <iframe src="https://docs.google.com/forms/d/10iv8pCV8aGT2925EmzGDNOi7Vb0BkODiuioLxvMZA1E/viewform?embedded=true" width="870" height="2800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            <iframe src="https://docs.google.com/forms/d/10iv8pCV8aGT2925EmzGDNOi7Vb0BkODiuioLxvMZA1E/viewform?embedded=true"
+                    width="870" height="2800" frameborder="0" marginheight="0" marginwidth="0">Loading...
+            </iframe>
         </div>
     </div>
 </div>
 
 <!-- Footer
      ================================================== -->
-<footer class="footer">
-    <div id="footer_cont">
+<div id="footer">
+    <div class="container">
         <a href="http://innovatesf.com"><img src="images/INSF_Logo_Web_small.png"/></a>
     </div>
-</footer>
-
-</div><!-- /container -->
-
+</div>
 <!-- Le javascript
      ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
@@ -317,9 +317,9 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.2.js"></script>
-<script type='text/javascript' src='js/jquery.scrollTo-1.4.2-min.js'></script>
+<script type='text/javascript' src='js/jquery.scrollTo-1.4.3.1-min.js'></script>
 <script type='text/javascript' src='js/jquery.localscroll-1.2.7-min.js'></script>
-<script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
+<script type="text/javascript" src="js/jquery.sticky.js"></script>
 <script type='text/javascript' src='app.js'></script>
 <script type="text/javascript">
 

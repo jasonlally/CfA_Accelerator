@@ -156,26 +156,11 @@ ul{
 	padding: 10px 20px;
 	margin-top:20px;
 	margin-right:4px;
-	background: -moz-linear-gradient(
-		top,
-		#FFE50D 0%,
-		#FFEE59 25%,
-		#CCB80A);
-	background: -webkit-gradient(
-		linear, left top, left bottom, 
-		from(#FFE50D),
-		color-stop(0.25, #FFEE59),
-		to(#CCB80A));
+	background: #FFEE59;
 	border-radius: 6px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
-	border: 1px solid #CCB80A;
-	-moz-box-shadow:
-		0px 3px 11px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(204,184,10,1);
-	-webkit-box-shadow:
-		0px 3px 11px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(204,184,10,1);
+	border: 1px solid #FFE50D;
 	text-shadow:
 		0px -1px 0px rgba(000,000,000,0.2),
 		0px 1px 0px rgba(255,255,255,0.3);
@@ -195,26 +180,11 @@ ul{
 	padding: 10px 20px;
 	margin-top:20px;
 	margin-right:4px;
-	background: -moz-linear-gradient(
-		top,
-        #CCB80A 0%,
-        #FFEE59 25%,
-        #FFE50D);
-	background: -webkit-gradient(
-		linear, left top, left bottom, 
-		from(#CCB80A),
-		color-stop(0.25, #FFEE59),
-		to(#FFE50D));
+	background: #FFE50D;
 	border-radius: 6px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border: 1px solid #FFE50D;
-	-moz-box-shadow:
-		0px 3px 11px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,229,13,1);
-	-webkit-box-shadow:
-		0px 3px 11px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,229,13,1);
 	text-shadow:
 		0px -1px 0px rgba(000,000,000,0.2),
 		0px 1px 0px rgba(255,255,255,0.3);
@@ -223,7 +193,7 @@ ul{
 #main_nav_cont{
 	width:100%;
 	height:72px;
-	background:url(../images/main_nav_bg.png) repeat-x;	
+	background: #eeeeee;
 }
 
 #nav_cont{

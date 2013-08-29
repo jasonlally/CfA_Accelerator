@@ -8,15 +8,15 @@ $(document).ready(function() {
 
 	$("#application").hide(); 
 
-	$(".Apply .button").live( 'click', function() {
+	$(".Apply .button").on( 'click', function() {
 		show_application();
 		window.location.hash = '#application';
 		
-		
+		 /*
 		//Firefox for some reason does not refresh the DOM in iFrame
 	    if($.browser.mozilla){
 			document.getElementsByTagName('iframe')[0].src=document.getElementsByTagName('iframe')[0].src
-	    }
+	    }    */
 
 	});
 

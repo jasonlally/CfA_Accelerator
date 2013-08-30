@@ -6,7 +6,7 @@ $(document).ready(function() {
 		window.scrollTo(0,500);
 	}
 
-    $("#main_nav_cont").sticky({topSpacing:0});
+    $(".navbar").sticky({topSpacing:0});
 
 	$("#application").hide(); 
 

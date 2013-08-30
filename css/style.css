@@ -456,14 +456,24 @@ blockquote {
 }
 blockquote:before {
     color:#ccc;
-    content:open-quote;
+    font-family: Georgia, serif;
+    content:"\201C";
     font-size:4em;
     line-height:.1em;
     margin-right:.25em;
     vertical-align:-.4em;
 }
-blockquote p {
-    display:inline;
+
+blockquote cite {
+    color: #999999;
+    font-size: .75em;
+    display: block;
+    margin-top: 5px;
+    text-align: right;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
 }
 
 .source {

@@ -49,7 +49,8 @@ $(document).ready(function() {
 		axis : "y",
 		duration : 1000,
 		easing : "easeInOutExpo",
-		hash : true
+		hash : true,
+        offset: -70
 	});
 		
 		

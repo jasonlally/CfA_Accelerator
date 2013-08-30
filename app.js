@@ -6,6 +6,8 @@ $(document).ready(function() {
 		window.scrollTo(0,500);
 	}
 
+    $(".navbar").sticky({topSpacing:0});
+
 	$("#application").hide(); 
 
 	$(".Apply .button").on( 'click', function() {
@@ -41,13 +43,14 @@ $(document).ready(function() {
 	var sections = $(".wrapper").each(function(index) {
 		$(this).data("height", $(this).height());
 	});
-	var links = $(".subnav a");
+	var links = $(".navbar a");
 
-	$(".subnav").localScroll({
+	$(".navbar").localScroll({
 		axis : "y",
 		duration : 1000,
 		easing : "easeInOutExpo",
-		hash : true
+		hash : true,
+        offset: -70
 	});
 		
 		

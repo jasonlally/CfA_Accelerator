@@ -23,7 +23,7 @@ body{
 
 .navbar .navbar-nav > .active > a {
     background: none;
-    color: #00ADEF;
+    color: #00AEEF;
 }
 
 .navbar-nav > li > a {
@@ -114,7 +114,7 @@ a:hover {
     font-size: 80px;
     line-height: 1.5;
     text-align: center;
-    color: #00ADEF;
+    color: #00AEEF;
 }
 
 .jumbotron h2 {
@@ -137,7 +137,7 @@ h1{
 
 h2{
 	font-size:28px;
-	color:#00ADEF;
+	color:#00AEEF;
 	font-weight:700;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -175,66 +175,6 @@ ul{
 	margin:0px;
 	padding:0px;
 	list-style:none;	
-}
-
-#header{
-	width:100%;
-	height:141px;
-    background-color: #FFE50D;
-}
-
-#header_logo_cont{
-	width:870px;
-	height:141px;
-	margin:0px auto;
-	text-align:center;	
-}
-
-#banner_cont{
-	width:100%;
-	height:420px;
-	position:relative;
-    background-color: #267FFF;
-}
-
-#banner_bg{
-	width:100%;
-	height:420px;
-	position:relative;
-}
-
-#banner_txt{
-	width:870px;
-	height:400px;
-	margin:0px auto;
-	text-align:right;
-	padding:30px 0px;
-    background: url(../images/SF-City-Hall.png) no-repeat;
-    background-position: 0 64px;
-}
-
-.top_cufon{
-	font-size:5em;
-	line-height:1.25;
-	color:#fff;
-	font-family: 'Oswald', Helvetica, Arial, sans-serif;
-    font-weight: 700;
-	text-shadow:8px 7px 8px #13407F;
-	-moz-text-shadow:8px 7px 8px #13407F;
-	-webkit-text-shadow:8px 7px 8px #13407F;
-}
-
-.cufon{	
-	margin-top:5px;
-}
-
-.banner_des{
-	font-size:25px;
-	font-weight:400;
-	color:#fff;	
-	float:right;
-	margin-right:4px;
-	margin-top:3px;
 }
 
 .button {

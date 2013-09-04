@@ -8,7 +8,8 @@ body{
 
 .container p,
 .container li {
-    font-size: 1.1em;
+    font-size: 1.2em;
+    line-height: 1.48;
 }
 
 /* Navbar */
@@ -86,7 +87,8 @@ li {
     line-height: inherit;
 }
 
-ol.para li {
+ol.para li,
+ul.para li {
     margin-bottom: 10px;
 }
 
@@ -183,12 +185,6 @@ h5 {
 h5 a{
 	text-decoration:none;
 	color:#3b3b3b;	
-}
-
-ul{
-	margin:0px;
-	padding:0px;
-	list-style:none;	
 }
 
 .button {
@@ -309,10 +305,16 @@ blockquote cite:before {
 
 .program-summary {
  text-align: center;
+ color: #fff;
+ padding-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .program-summary p {
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 .program-summary img {

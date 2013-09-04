@@ -2,6 +2,7 @@ $(document).ready(function() {
 
 	var show_application = function(){
 		$("#information").hide();
+        $(".header").hide();
 		$("#application").show();
 		window.scrollTo(0,500);
 	}
@@ -29,6 +30,7 @@ $(document).ready(function() {
 	$("div#application a.back").click(function() {
 		$("#application").hide();
 		$("#information").show();
+        $(".header").show();
 		window.location.hash = '';
 	});
 		

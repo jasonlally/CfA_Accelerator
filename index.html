@@ -20,6 +20,37 @@
     <link href='http://fonts.googleapis.com/css?family=Lato|Montserrat|Fjalla+One' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/ico" href="images/favicon.ico"/>
 
+
+    <script src="http://cdn.jotfor.ms/static/jotform.js?3.1.1477" type="text/javascript"></script>
+    <script type="text/javascript">
+        JotForm.init(function(){
+            $('input_16').hint('ex: myname@example.com');
+        });
+    </script>
+    <link href="http://cdn.jotfor.ms/static/formCss.css?3.1.1477" rel="stylesheet" type="text/css" />
+    <link type="text/css" media="print" rel="stylesheet" href="http://cdn.jotfor.ms/css/printForm.css?3.1.1477" />
+    <style type="text/css">
+        /*.form-label{
+            width:150px !important;
+        }
+        .form-label-left{
+            width:150px !important;
+        }
+        .form-line{
+            padding-top:12px;
+            padding-bottom:12px;
+        }
+        .form-label-right{
+            width:150px !important;
+        }
+        .form-all{
+            width:590px;
+            color:#555 !important;
+            font-family:'Verdana';
+            font-size:12px;
+        }*/
+    </style>
+
 </head>
 
 <body data-spy="scroll" data-target="#main-nav-cont" data-offset="100">
@@ -407,13 +438,70 @@
 </div>
 <!-- section -->
 <div class="section" id="getinvolved">
+    <div class="container">
     <h1>Get Involved</h1>
 
     <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-            <script type="text/javascript"> id = 172958; </script>
-            <script type="text/javascript" src="http://kontactr.com/wp.js"></script>
+        <div class="col-sm-6 col-sm-offset-3">
+           <p>Have a question about the program? Want to talk about possible partnerships? Use the form below to send us a message and we'll get back to you as soon as possible.</p>
         </div>
+        <div class="col-sm-6 col-sm-offset-3">
+            <form class="jotform-form" action="http://submit.jotform.us/submit/32461747601149/" method="post" name="form_32461747601149" id="32461747601149" accept-charset="utf-8">
+                <input type="hidden" name="formID" value="32461747601149" />
+                <div>
+                    <ul class="form-section">
+                        <li class="form-line" id="id_19">
+                            <label class="form-label-top" id="label_19" for="input_19"> Name </label>
+                            <div id="cid_19" class="form-input-wide">
+                                <input type="text" class="form-textbox form-control" data-type="input-textbox" id="input_19" name="q19_name19" size="20" value="" />
+                            </div>
+                        </li>
+                        <li class="form-line" id="id_16">
+                            <label class="form-label-top" id="label_16" for="input_16">
+                                E-mail Address<span class="form-required">*</span>
+                            </label>
+                            <div id="cid_16" class="form-input-wide">
+                                <input type="email" class="form-control form-textbox validate[required, Email]" id="input_16" name="q16_emailAddress" size="32" value="" />
+                            </div>
+                        </li>
+                        <li class="form-line" id="id_18">
+                            <label class="form-label-top" id="label_18" for="input_18">
+                                Subject<span class="form-required">*</span>
+                            </label>
+                            <div id="cid_18" class="form-input-wide">
+                                <input type="text" class="form-control form-textbox validate[required]" data-type="input-textbox" id="input_18" name="q18_subject18" size="20" value="" />
+                            </div>
+                        </li>
+                        <li class="form-line" id="id_17">
+                            <label class="form-label-top" id="label_17" for="input_17">
+                                Message<span class="form-required">*</span>
+                            </label>
+                            <div id="cid_17" class="form-input-wide">
+                                <textarea id="input_17" class="form-control form-textarea validate[required]" name="q17_message" cols="60" rows="9"></textarea>
+                            </div>
+                        </li>
+                        <li class="form-line" id="id_14">
+                            <div id="cid_14" class="form-input-wide">
+                                <div style="text-align:left" class="form-buttons-wrapper">
+                                    <button id="input_14" type="submit" class="btn btn-primary">
+                                        Submit
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="display:none">
+                            Should be Empty:
+                            <input type="text" name="website" value="" />
+                        </li>
+                    </ul>
+                </div>
+                <input type="hidden" id="simple_spc" name="simple_spc" value="32461747601149" />
+                <script type="text/javascript">
+                    document.getElementById("si" + "mple" + "_spc").value = "32461747601149-32461747601149";
+                </script>
+            </form>
+        </div>
+    </div>
     </div>
 </div>
 <!-- /section -->

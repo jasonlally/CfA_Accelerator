@@ -80,7 +80,7 @@ body{
 /*******/
 
 .header {
-    background: url(../images/mars_discovery_district_workspace.jpg) center no-repeat;
+    background: url(../images/San_Francisco_City_Hall_2.JPG) center no-repeat;
 }
 
 li {
@@ -103,6 +103,11 @@ a:hover {
 
 .jumbotron {
     background: none;
+}
+
+.jumbotron > .container {
+    background: rgba(0,0,0,.5);
+    padding-bottom: 15px;
 }
 
 .jumbotron h1 {
@@ -137,10 +142,64 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 400px) {
+.office-of-mayor {
+    text-align: left;
+    padding-top: 40px;
+}
+
+.mayor-tag-line {
+    text-align: right;
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 500px) {
     .jumbotron {
         padding: 30px 0;
     }
+    .office-of-mayor {
+        text-align: center;
+        padding:0;
+    }
+    .mayor-tag-line {
+        text-align: center;
+        padding: 0;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
+
+.photo-credit{
+    float: right;
+    color: #FFF;
+    font-size:14px;
+    text-shadow: 2px 2px rgba(0,0,0,.5);
+}
+
+.photo-credit a {
+    color: #eeeeee;
+    text-decoration: underline;
+}
+
+.brand-wrapper {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+h1.office-brand {
+    text-align: left;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.office-brand-lead {
+    margin: 0;
+    padding: 0;
+    color: #fff;
 }
 
 h1{
